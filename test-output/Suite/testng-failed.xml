@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="msg" value="best wishes"/>
+    <parameter name="password" value="aishwarya"/>
+    <parameter name="reci_email" value="supriya@gmail.com"/>
+    <parameter name="reci_name" value="Supriya"/>
+    <parameter name="qty" value="5"/>
+    <parameter name="sender_name" value="Aishwarya"/>
+    <parameter name="url" value="https://demowebshop.tricentis.com/"/>
+    <parameter name="username" value="aishwaryadeshpande33@gmail.com"/>
+    <parameter name="sender_email" value="aishwaryadeshpande33@gmail.com"/>
+    <classes>
+      <class name="Assignment.GiftCard">
+        <methods>
+          <include name="beforeMehod"/>
+          <include name="afterTest"/>
+          <include name="giftCard" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuit"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Assignment.GiftCard -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
